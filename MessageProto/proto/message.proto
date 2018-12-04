@@ -1,0 +1,9 @@
+syntax = "proto3";
+option csharp_namespace = "MessageProto";
+
+message HeartBeatMessage{
+    bool Reserved = 1;
+}
+message BasicMessage{
+    string Message = 1;
+}
